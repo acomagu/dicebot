@@ -1,0 +1,6 @@
+public
+statik
+bin
+dicebot
+dicesound.*
+**/*_mock_test.go
