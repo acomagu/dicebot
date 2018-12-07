@@ -1,5 +1,7 @@
 # DICEBOT
 
+[![CircleCI](https://img.shields.io/circleci/project/github/acomagu/dicebot.svg?style=flat-square)](https://circleci.com/gh/acomagu/dicebot) [![Codecov](https://img.shields.io/codecov/c/github/acomagu/dicebot.svg?style=flat-square)](https://codecov.io/gh/acomagu/dicebot)
+
 ![Screenshot](screenshot.png)
 
 クトゥルフTRPGのダイスを振ってくれるDiscord Botです。ボイスチャンネルを通してダイス音を再現します。
