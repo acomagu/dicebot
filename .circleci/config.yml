@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.11
+
+    working_directory: /go/src/github.com/acomagu/dicebot
+    environment:
+      - GO111MODULE: 'on'
+    steps:
+      - checkout
+      - run:
+          name: Install FFmpeg
+          command: sudo apt-get install ffmpeg
+      - run:
+          name: Generate Source
+          command: |
+            cp .circleci/dicesound.wav .
+            make source
+      - run:
+          name: Test
+          command: .circleci/test
+      - run:
+          name: Send Coverage
+          command: bash <(curl -s https://codecov.io/bash)

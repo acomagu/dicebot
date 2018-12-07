@@ -8,6 +8,9 @@ SOURCES = statik/statik.go $(GENERATED_SOURCES) $(wildcard *.go) $(wildcard **/*
 dicebot: $(SOURCES)
 	go build -o dicebot
 
+.PHONY: source
+source: $(SOURCES)
+
 .PHONY: dockerimage
 dockerimage: $(SOURCES)
 	GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o dicebot

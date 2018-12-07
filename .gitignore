@@ -3,4 +3,5 @@ statik
 bin
 dicebot
 dicesound.*
+!.circleci/dicesound.wav
 **/*_mock_test.go
