@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:olo="http://purl.org/ontology/olo/core#"
+xmlns:vann="http://purl.org/vocab/vann/"
+xmlns:bibo="http://purl.org/ontology/bibo/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+typeof="bibo:Document"
+about="http://example.org/spec.html"
+version="XHTML+RDFa 1.0">
+<head>
+  <title about="http://example.org/spec.html" property="dc:title">The The Call of Cthulhu Character Ontology Specification</title>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+  <base href="http://example.org/spec.html" />
+  
+  <link href="http://smiy.sourceforge.net/css/xmlns-style.css" rel="stylesheet"  type="text/css" />
+  <link href="http://smiy.sourceforge.net/css/style.css" rel="stylesheet"  type="text/css" />
+  <link href="http://www.csw.inf.fu-berlin.de/ontdocu/specgen/groups.css" rel="stylesheet"  type="text/css" />
+  
+  <link about="ccs" typeof="owl:Ontology" rel="dc:creator" href="foaflink" />
+  <link about="ccs" rel="dc:creator" href="foaflink" />
+  <link about="http://example.org/spec.html" rel="dc:creator" href="foaflink" />
+  <link about="http://example.org/spec.html" rel="foaf:primaryTopic" rev="foaf:isPrimaryTopicOf" href="ccs" />
+
+  
+
+</head>
+
+<body>
+  <h1><span about="ccs" property="dc:title">The The Call of Cthulhu Character Ontology</span> <span about="ccs" property="owl:versionInfo" datatype="xsd:decimal">0.01</span></h1>
+
+  <h2>Namespace Document <span about="ccs" property="dc:date" content="2018-12-25T09:26:33" datatype="xsd:dateTime">25 December 2018</span></h2>
+<table class="header" border="0">
+  <tr>
+    <td>
+		<dl about="http://example.org/spec.html">
+			<dt>This version:</dt>
+			<dd><a rel="dc:hasVersion" 
+				rev="dc:isVersionOf" href=Version-URL">Version URL</a> (<a href="Version-File-URI">OWL</a>)</dd>
+
+			<dt>Latest version:</dt>
+			<dd><a href="ccs">ccs</a> (<a href="OWL-Link-Here">OWL</a>)</dd>
+
+			<dt>Previous version:</dt>
+			    ...
+			<dt>Authors:</dt>
+			<dd><a rel="rdfs:seeAlso" href="Link-To-Person-Here">Person</a> (<a rel="rdfs:seeAlso" href="Company-Address">Company Address</a>),<br/>
+				<a rel="rdfs:seeAlso" href="Link-To-Another-Person">another Person</a> (<a rel="rdfs:seeAlso" href="Company-Address">Company Address</a>)</dd>
+		</dl>
+
+		<p class="copyright"><span about="ccs" property="dc:rights">Copyright &#169; 2012 Copyright holder here</span></p>
+	</td>
+    <td align="right">
+		<table class="infobox">
+			<tr>
+				<td rowspan="2">
+					<img src="http://wfnm.sourceforge.net/images/sourceforge_logo.jpg" width="150" alt="Sourceforge"/>
+				</td>
+				<td align="center">
+					<b>The Call of Cthulhu Character Ontology repository</b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<a href="LinkToRepo">Source code, examples, graphics, ...</a>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">
+					<img src="http://s.wordpress.org/about/images/buttons/buttonw-blue.png" width="150" alt="Wordpress" />
+				</td>
+				<td align="center">
+					<b>other Infos</b>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<a href="Another Link">Announcements, descriptions, use cases, ...</a>
+				</td>
+			</tr>
+		</table>
+	</td>
+  </tr>
+</table>
+
+  <div about="http://example.org/spec.html" rel="dc:conformsTo"
+     resource="http://www.w3.org/TR/rdfa-syntax"></div>
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img style="border: 0; float: right; padding: 5px;"
+        src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+        alt="Valid XHTML + RDFa" height="31" width="88" /></a>
+
+  <!-- Creative Commons License -->
+  Example Licencing Information
+   <a href="http://creativecommons.org/licenses/by/1.0/"><img alt=
+  "Creative Commons License" style="border: 0; float: right; padding: 5px;" src=
+  "http://i.creativecommons.org/l/by/3.0/88x31.png" /></a> This work is licensed under a <a about="http://example.org/spec.html" rel="license dc:license" href= 
+  "http://creativecommons.org/licenses/by/3.0/" title="Creative Commons
+  Attribution License">Creative Commons
+  Attribution License</a>. This copyright applies to the <em>The Call of Cthulhu Character Ontology Specification</em> 
+  and accompanying documentation in RDF.
+ Regarding underlying technology, the <em>The Call of Cthulhu Character Ontology</em> uses W3C's <a href="http://www.w3.org/RDF/">RDF</a> technology, an
+  open Web standard that can be freely used by anyone.</p>
+  
+  <hr />
+
+
+<h2 id="sec-status">Abstract</h2>
+<p about="ccs" property="dc:description">
+The <em>The Call of Cthulhu Character Ontology Specification</em> provides...
+</p>
+
+  <div class="status">
+    <h2>Status of This Document</h2>
+
+    <p about="http://example.org/spec.html">The template of this specification is derived from the  <a rel="rdfs:seeAlso" href="http://xmlns.com/foaf/spec/">FOAF 
+Vocabulary Specification</a>, which was created by <a rel="rdfs:seeAlso" href="http://danbri.org/">Dan Brickley</a> and <a rel="rdfs:seeAlso" href="http://nicecupoftea.org/">Libby Miller</a>, 
+and the <a rel="rdfs:seeAlso" href="http://musicontology.com/">Music Ontology Specification</a>, which was created by <a rel="rdfs:seeAlso" href="http://moustaki.org/">Yves Raimond</a>. It was 
+modified and extended by Bob Ferris. Furthermore, a modified and extended version of <a rel="rdfs:seeAlso" href="http://svn.foaf-project.org/foaftown/specgen/">Danbri's SpecGen version</a> was 
+used to generate most of the RDFa statements of the <em>Ordered List Ontology</em> for this specification (see <a rel="rdfs:seeAlso" 
+href="http://smiy.svn.sourceforge.net/viewvc/smiy/specgen/trunk/">here</a> for SpecGen version 6 by Bob Ferris).
+</p>
+
+...
+  <h2 id="sec-toc">Table of Contents</h2>
+
+  <ul>
+    <li><a href="#sec-glance">The The Call of Cthulhu Character Ontology at a glance</a></li>
+    <li><a href="#sec-example">Examples</a></li>
+    <li><a href="#sec-intro">Introduction</a></li>
+    <li><a href="#sec-for">What's the The Call of Cthulhu Character Ontology for?</a></li>
+    <li><a href="#sec-bg">Background</a></li>
+    <li><a href="#sec-standards">The The Call of Cthulhu Character Ontology and Standards</a></li>
+    <li><a href="#sec-evolution">Evolution and Extension of the The Call of Cthulhu Character Ontology</a></li>
+    <li><a href="#sec-crossref">The The Call of Cthulhu Character Ontology cross-reference: Listing the The Call of Cthulhu Character Ontology Classes and Properties</a></li>
+    <li><a href="#sec-extrefs">External Vocabulary References</a></li>
+    <li><a href="#sec-ack">Acknowledgments</a></li>
+    <li><a href="#sec-changes">Recent Changes</a></li>
+  </ul>
+
+
+  <a id="sec-glance"></a>
+  <h2 id="glance">The The Call of Cthulhu Character Ontology at a glance</h2>
+  
+   ...
+ <p>An a-z index of <em>The Call of Cthulhu Character Ontology</em> terms, by class (categories or types) and by property.</p>
+ 
+ 
+ <div class="azlist">
+<p>Classes: | <a href="#Accounting">Accounting</a> |  <a href="#Anthropology">Anthropology</a> |  <a href="#Archaeology">Archaeology</a> |  <a href="#Art">Art</a> |  <a href="#Astronomy">Astronomy</a> |  <a href="#Bargain">Bargain</a> |  <a href="#Biology">Biology</a> |  <a href="#Character">Character</a> |  <a href="#Chemistry">Chemistry</a> |  <a href="#Climb">Climb</a> |  <a href="#Conceal">Conceal</a> |  <a href="#Craft">Craft</a> |  <a href="#CreditRating">CreditRating</a> |  <a href="#CthulhuMythos">CthulhuMythos</a> |  <a href="#Disguise">Disguise</a> |  <a href="#Dodge">Dodge</a> |  <a href="#DriveAutomobile">DriveAutomobile</a> |  <a href="#ElectricalRepair">ElectricalRepair</a> |  <a href="#FastTalk">FastTalk</a> |  <a href="#FirstAid">FirstAid</a> |  <a href="#FistPunch">FistPunch</a> |  <a href="#Geology">Geology</a> |  <a href="#Grapple">Grapple</a> |  <a href="#Handgun">Handgun</a> |  <a href="#HeadButt">HeadButt</a> |  <a href="#Hide">Hide</a> |  <a href="#History">History</a> |  <a href="#Jump">Jump</a> |  <a href="#Kick">Kick</a> |  <a href="#Law">Law</a> |  <a href="#LibraryUse">LibraryUse</a> |  <a href="#Listen">Listen</a> |  <a href="#Locksmith">Locksmith</a> |  <a href="#MachineGun">MachineGun</a> |  <a href="#MartialArts">MartialArts</a> |  <a href="#MechanicalRepair">MechanicalRepair</a> |  <a href="#Medicine">Medicine</a> |  <a href="#MeleeWeapon">MeleeWeapon</a> |  <a href="#NaturalHistory">NaturalHistory</a> |  <a href="#Navigate">Navigate</a> |  <a href="#Occult">Occult</a> |  <a href="#OperateHeavyMachine">OperateHeavyMachine</a> |  <a href="#OtherLanguage">OtherLanguage</a> |  <a href="#OwnLanguage">OwnLanguage</a> |  <a href="#Persuade">Persuade</a> |  <a href="#Pharmacy">Pharmacy</a> |  <a href="#Photography">Photography</a> |  <a href="#Physics">Physics</a> |  <a href="#Pilot">Pilot</a> |  <a href="#Psychoanalysis">Psychoanalysis</a> |  <a href="#Psychology">Psychology</a> |  <a href="#Ride">Ride</a> |  <a href="#Rifle">Rifle</a> |  <a href="#Shotgun">Shotgun</a> |  <a href="#Skill">Skill</a> |  <a href="#Sneak">Sneak</a> |  <a href="#SpotHidden">SpotHidden</a> |  <a href="#SubmachineGun">SubmachineGun</a> |  <a href="#Swim">Swim</a> |  <a href="#Throw">Throw</a> |  <a href="#Track">Track</a> | 
+</p>
+<p>Properties: | <a href="#app">app</a> |  <a href="#chance">chance</a> |  <a href="#con">con</a> |  <a href="#dex">dex</a> |  <a href="#edu">edu</a> |  <a href="#hasSkill">hasSkill</a> |  <a href="#hp">hp</a> |  <a href="#int">int</a> |  <a href="#kind">kind</a> |  <a href="#mp">mp</a> |  <a href="#pow">pow</a> |  <a href="#san">san</a> |  <a href="#siz">siz</a> |  <a href="#str">str</a> | 
+</p>
+</div>
+ 
+ 
+  <p> Main <em>The Call of Cthulhu Character Ontology </em> terms, grouped in broad categories. </p>
+
+    
+    
+ 
+ 
+
+  <div style="clear: left;"></div>
+
+  <h2 id="sec-example">Example</h2>
+  
+    <p>A graphic of a simple example of an use case of the <em>The Call of Cthulhu Character Ontology</em></p>
+  
+    
+  <div class="example">
+  ....
+  </div>
+
+ <div style="clear: left;"></div>
+
+
+  <!-- ================================================================== -->
+
+
+ <h2 id="sec-intro">Introduction: The Call of Cthulhu Character Ontology Basics</h2>
+
+
+  <h2 id="sec-for">What's the The Call of Cthulhu Character Ontology for?</h2>
+
+...
+  <h2 id="sec-bg">Background</h2>
+
+  <p>TODO</p>
+
+  <h2 id="sec-standards">The The Call of Cthulhu Character Ontology and Standards</h2>
+
+  <p>TODO</p>
+
+  <p>TODO</p>
+
+  <h2 id="sec-nsdoc">The The Call of Cthulhu Character Ontology Description</h2>
+
+  <p>This specification serves as the <em>The Call of Cthulhu Character Ontology</em> "namespace document". ... </p>
+
+  <h3 id="sec-evolution">Evolution and Extension of the The Call of Cthulhu Character Ontology</h3>
+
+  ....
+
+  <h2 id="sec-crossref">The The Call of Cthulhu Character Ontology cross-reference: Listing the The Call of Cthulhu Character Ontology Classes and Properties</h2>
+
+  <p>The <em>The Call of Cthulhu Character Ontology</em> introduces the following classes and properties. </p>
+
+  <!-- the following is the script-generated list of classes and properties -->
+ 
+
+<!-- this is the a-z listing -->
+<div class="azlist">
+<p>Classes: | <a href="#Accounting">Accounting</a> |  <a href="#Anthropology">Anthropology</a> |  <a href="#Archaeology">Archaeology</a> |  <a href="#Art">Art</a> |  <a href="#Astronomy">Astronomy</a> |  <a href="#Bargain">Bargain</a> |  <a href="#Biology">Biology</a> |  <a href="#Character">Character</a> |  <a href="#Chemistry">Chemistry</a> |  <a href="#Climb">Climb</a> |  <a href="#Conceal">Conceal</a> |  <a href="#Craft">Craft</a> |  <a href="#CreditRating">CreditRating</a> |  <a href="#CthulhuMythos">CthulhuMythos</a> |  <a href="#Disguise">Disguise</a> |  <a href="#Dodge">Dodge</a> |  <a href="#DriveAutomobile">DriveAutomobile</a> |  <a href="#ElectricalRepair">ElectricalRepair</a> |  <a href="#FastTalk">FastTalk</a> |  <a href="#FirstAid">FirstAid</a> |  <a href="#FistPunch">FistPunch</a> |  <a href="#Geology">Geology</a> |  <a href="#Grapple">Grapple</a> |  <a href="#Handgun">Handgun</a> |  <a href="#HeadButt">HeadButt</a> |  <a href="#Hide">Hide</a> |  <a href="#History">History</a> |  <a href="#Jump">Jump</a> |  <a href="#Kick">Kick</a> |  <a href="#Law">Law</a> |  <a href="#LibraryUse">LibraryUse</a> |  <a href="#Listen">Listen</a> |  <a href="#Locksmith">Locksmith</a> |  <a href="#MachineGun">MachineGun</a> |  <a href="#MartialArts">MartialArts</a> |  <a href="#MechanicalRepair">MechanicalRepair</a> |  <a href="#Medicine">Medicine</a> |  <a href="#MeleeWeapon">MeleeWeapon</a> |  <a href="#NaturalHistory">NaturalHistory</a> |  <a href="#Navigate">Navigate</a> |  <a href="#Occult">Occult</a> |  <a href="#OperateHeavyMachine">OperateHeavyMachine</a> |  <a href="#OtherLanguage">OtherLanguage</a> |  <a href="#OwnLanguage">OwnLanguage</a> |  <a href="#Persuade">Persuade</a> |  <a href="#Pharmacy">Pharmacy</a> |  <a href="#Photography">Photography</a> |  <a href="#Physics">Physics</a> |  <a href="#Pilot">Pilot</a> |  <a href="#Psychoanalysis">Psychoanalysis</a> |  <a href="#Psychology">Psychology</a> |  <a href="#Ride">Ride</a> |  <a href="#Rifle">Rifle</a> |  <a href="#Shotgun">Shotgun</a> |  <a href="#Skill">Skill</a> |  <a href="#Sneak">Sneak</a> |  <a href="#SpotHidden">SpotHidden</a> |  <a href="#SubmachineGun">SubmachineGun</a> |  <a href="#Swim">Swim</a> |  <a href="#Throw">Throw</a> |  <a href="#Track">Track</a> | 
+</p>
+<p>Properties: | <a href="#app">app</a> |  <a href="#chance">chance</a> |  <a href="#con">con</a> |  <a href="#dex">dex</a> |  <a href="#edu">edu</a> |  <a href="#hasSkill">hasSkill</a> |  <a href="#hp">hp</a> |  <a href="#int">int</a> |  <a href="#kind">kind</a> |  <a href="#mp">mp</a> |  <a href="#pow">pow</a> |  <a href="#san">san</a> |  <a href="#siz">siz</a> |  <a href="#str">str</a> | 
+</p>
+</div>
+
+
+    <!-- The list of groups starts here -->
+
+    <!-- End of the groups -->
+
+
+<!-- and this is the bulk of the vocab descriptions -->
+<div class="termlist"><h3>Classes and Properties (full detail)</h3>
+<div class='termdetails'><br />
+
+<h2>Classes</h2>
+ 
+
+
+<div class="specterm" id="Accounting" about="https://acomagu.me/ontology/ccs/0.1#Accounting" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Accounting</h3> 
+  			<em property="rdfs:label" >Accounting</em> - <span property="rdfs:comment" >Accounting</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Accounting">#</a>] <!-- Accounting --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Anthropology" about="https://acomagu.me/ontology/ccs/0.1#Anthropology" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Anthropology</h3> 
+  			<em property="rdfs:label" >Anthropology</em> - <span property="rdfs:comment" >Anthropology</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Anthropology">#</a>] <!-- Anthropology --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Archaeology" about="https://acomagu.me/ontology/ccs/0.1#Archaeology" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Archaeology</h3> 
+  			<em property="rdfs:label" >Archaeology</em> - <span property="rdfs:comment" >Archaeology</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Archaeology">#</a>] <!-- Archaeology --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Art" about="https://acomagu.me/ontology/ccs/0.1#Art" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Art</h3> 
+  			<em property="rdfs:label" >Art</em> - <span property="rdfs:comment" >Art</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Art">#</a>] <!-- Art --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Astronomy" about="https://acomagu.me/ontology/ccs/0.1#Astronomy" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Astronomy</h3> 
+  			<em property="rdfs:label" >Astronomy</em> - <span property="rdfs:comment" >Astronomy</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Astronomy">#</a>] <!-- Astronomy --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Bargain" about="https://acomagu.me/ontology/ccs/0.1#Bargain" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Bargain</h3> 
+  			<em property="rdfs:label" >Bargain</em> - <span property="rdfs:comment" >Bargain</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Bargain">#</a>] <!-- Bargain --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Biology" about="https://acomagu.me/ontology/ccs/0.1#Biology" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Biology</h3> 
+  			<em property="rdfs:label" >Biology</em> - <span property="rdfs:comment" >Biology</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Biology">#</a>] <!-- Biology --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Character" about="https://acomagu.me/ontology/ccs/0.1#Character" typeof="rdfs:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Character</h3> 
+  			<em property="rdfs:label" >Character</em> - <span property="rdfs:comment" >Any character for Call of Cthulhu.</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#pow">pow</a>
+ <a href="#hasSkill">hasSkill</a>
+ <a href="#mp">mp</a>
+ <a href="#int">int</a>
+ <a href="#edu">edu</a>
+ <a href="#dex">dex</a>
+ <a href="#san">san</a>
+ <a href="#str">str</a>
+ <a href="#app">app</a>
+ <a href="#con">con</a>
+ <a href="#siz">siz</a>
+ <a href="#hp">hp</a>
+ </td></tr>
+  			<tr><th colspan="2">RDFS Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Character">#</a>] <!-- Character --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Chemistry" about="https://acomagu.me/ontology/ccs/0.1#Chemistry" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Chemistry</h3> 
+  			<em property="rdfs:label" >Chemistry</em> - <span property="rdfs:comment" >Chemistry</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Chemistry">#</a>] <!-- Chemistry --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Climb" about="https://acomagu.me/ontology/ccs/0.1#Climb" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Climb</h3> 
+  			<em property="rdfs:label" >Climb</em> - <span property="rdfs:comment" >Climb</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Climb">#</a>] <!-- Climb --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Conceal" about="https://acomagu.me/ontology/ccs/0.1#Conceal" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Conceal</h3> 
+  			<em property="rdfs:label" >Conceal</em> - <span property="rdfs:comment" >Conceal</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Conceal">#</a>] <!-- Conceal --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Craft" about="https://acomagu.me/ontology/ccs/0.1#Craft" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Craft</h3> 
+  			<em property="rdfs:label" >Craft</em> - <span property="rdfs:comment" >Craft</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Craft">#</a>] <!-- Craft --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="CreditRating" about="https://acomagu.me/ontology/ccs/0.1#CreditRating" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:CreditRating</h3> 
+  			<em property="rdfs:label" >Credit Rating</em> - <span property="rdfs:comment" >Credit Rating</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#CreditRating">#</a>] <!-- CreditRating --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="CthulhuMythos" about="https://acomagu.me/ontology/ccs/0.1#CthulhuMythos" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:CthulhuMythos</h3> 
+  			<em property="rdfs:label" >Cthulhu Mythos</em> - <span property="rdfs:comment" >Cthulhu Mythos</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#CthulhuMythos">#</a>] <!-- CthulhuMythos --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Disguise" about="https://acomagu.me/ontology/ccs/0.1#Disguise" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Disguise</h3> 
+  			<em property="rdfs:label" >Disguise</em> - <span property="rdfs:comment" >Disguise</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Disguise">#</a>] <!-- Disguise --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Dodge" about="https://acomagu.me/ontology/ccs/0.1#Dodge" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Dodge</h3> 
+  			<em property="rdfs:label" >Dodge</em> - <span property="rdfs:comment" >Dodge</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Dodge">#</a>] <!-- Dodge --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="DriveAutomobile" about="https://acomagu.me/ontology/ccs/0.1#DriveAutomobile" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:DriveAutomobile</h3> 
+  			<em property="rdfs:label" >Drive Automobile</em> - <span property="rdfs:comment" >Drive Automobile</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#DriveAutomobile">#</a>] <!-- DriveAutomobile --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="ElectricalRepair" about="https://acomagu.me/ontology/ccs/0.1#ElectricalRepair" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:ElectricalRepair</h3> 
+  			<em property="rdfs:label" >Electrical Repair</em> - <span property="rdfs:comment" >Electrical Repair</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#ElectricalRepair">#</a>] <!-- ElectricalRepair --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="FastTalk" about="https://acomagu.me/ontology/ccs/0.1#FastTalk" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:FastTalk</h3> 
+  			<em property="rdfs:label" >Fast Talk</em> - <span property="rdfs:comment" >Fast Talk</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#FastTalk">#</a>] <!-- FastTalk --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="FirstAid" about="https://acomagu.me/ontology/ccs/0.1#FirstAid" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:FirstAid</h3> 
+  			<em property="rdfs:label" >First Aid</em> - <span property="rdfs:comment" >First Aid</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#FirstAid">#</a>] <!-- FirstAid --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="FistPunch" about="https://acomagu.me/ontology/ccs/0.1#FistPunch" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:FistPunch</h3> 
+  			<em property="rdfs:label" >Fist Punch</em> - <span property="rdfs:comment" >Fist Punch</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#FistPunch">#</a>] <!-- FistPunch --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Geology" about="https://acomagu.me/ontology/ccs/0.1#Geology" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Geology</h3> 
+  			<em property="rdfs:label" >Geology</em> - <span property="rdfs:comment" >Geology</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Geology">#</a>] <!-- Geology --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Grapple" about="https://acomagu.me/ontology/ccs/0.1#Grapple" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Grapple</h3> 
+  			<em property="rdfs:label" >Grapple</em> - <span property="rdfs:comment" >Grapple</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Grapple">#</a>] <!-- Grapple --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Handgun" about="https://acomagu.me/ontology/ccs/0.1#Handgun" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Handgun</h3> 
+  			<em property="rdfs:label" >Handgun</em> - <span property="rdfs:comment" >Handgun</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Handgun">#</a>] <!-- Handgun --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="HeadButt" about="https://acomagu.me/ontology/ccs/0.1#HeadButt" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:HeadButt</h3> 
+  			<em property="rdfs:label" >Head Butt</em> - <span property="rdfs:comment" >Head Butt</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#HeadButt">#</a>] <!-- HeadButt --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Hide" about="https://acomagu.me/ontology/ccs/0.1#Hide" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Hide</h3> 
+  			<em property="rdfs:label" >Hide</em> - <span property="rdfs:comment" >Hide</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Hide">#</a>] <!-- Hide --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="History" about="https://acomagu.me/ontology/ccs/0.1#History" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:History</h3> 
+  			<em property="rdfs:label" >History</em> - <span property="rdfs:comment" >History</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#History">#</a>] <!-- History --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Jump" about="https://acomagu.me/ontology/ccs/0.1#Jump" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Jump</h3> 
+  			<em property="rdfs:label" >Jump</em> - <span property="rdfs:comment" >Jump</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Jump">#</a>] <!-- Jump --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Kick" about="https://acomagu.me/ontology/ccs/0.1#Kick" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Kick</h3> 
+  			<em property="rdfs:label" >Kick</em> - <span property="rdfs:comment" >Kick</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Kick">#</a>] <!-- Kick --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Law" about="https://acomagu.me/ontology/ccs/0.1#Law" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Law</h3> 
+  			<em property="rdfs:label" >Law</em> - <span property="rdfs:comment" >Law</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Law">#</a>] <!-- Law --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="LibraryUse" about="https://acomagu.me/ontology/ccs/0.1#LibraryUse" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:LibraryUse</h3> 
+  			<em property="rdfs:label" >Library Use</em> - <span property="rdfs:comment" >Library Use</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#LibraryUse">#</a>] <!-- LibraryUse --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Listen" about="https://acomagu.me/ontology/ccs/0.1#Listen" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Listen</h3> 
+  			<em property="rdfs:label" >Listen</em> - <span property="rdfs:comment" >Listen</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Listen">#</a>] <!-- Listen --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Locksmith" about="https://acomagu.me/ontology/ccs/0.1#Locksmith" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Locksmith</h3> 
+  			<em property="rdfs:label" >Locksmith</em> - <span property="rdfs:comment" >Locksmith</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Locksmith">#</a>] <!-- Locksmith --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="MachineGun" about="https://acomagu.me/ontology/ccs/0.1#MachineGun" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:MachineGun</h3> 
+  			<em property="rdfs:label" >Machine Gun</em> - <span property="rdfs:comment" >Machine Gun</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#MachineGun">#</a>] <!-- MachineGun --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="MartialArts" about="https://acomagu.me/ontology/ccs/0.1#MartialArts" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:MartialArts</h3> 
+  			<em property="rdfs:label" >Martial Arts</em> - <span property="rdfs:comment" >Martial Arts</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#MartialArts">#</a>] <!-- MartialArts --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="MechanicalRepair" about="https://acomagu.me/ontology/ccs/0.1#MechanicalRepair" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:MechanicalRepair</h3> 
+  			<em property="rdfs:label" >Mechanical Repair</em> - <span property="rdfs:comment" >Mechanical Repair</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#MechanicalRepair">#</a>] <!-- MechanicalRepair --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Medicine" about="https://acomagu.me/ontology/ccs/0.1#Medicine" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Medicine</h3> 
+  			<em property="rdfs:label" >Medicine</em> - <span property="rdfs:comment" >Medicine</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Medicine">#</a>] <!-- Medicine --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="MeleeWeapon" about="https://acomagu.me/ontology/ccs/0.1#MeleeWeapon" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:MeleeWeapon</h3> 
+  			<em property="rdfs:label" >Melee Weapon</em> - <span property="rdfs:comment" >Melee Weapon</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#MeleeWeapon">#</a>] <!-- MeleeWeapon --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="NaturalHistory" about="https://acomagu.me/ontology/ccs/0.1#NaturalHistory" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:NaturalHistory</h3> 
+  			<em property="rdfs:label" >Natural History</em> - <span property="rdfs:comment" >Natural History</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#NaturalHistory">#</a>] <!-- NaturalHistory --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Navigate" about="https://acomagu.me/ontology/ccs/0.1#Navigate" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Navigate</h3> 
+  			<em property="rdfs:label" >Navigate</em> - <span property="rdfs:comment" >Navigate</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Navigate">#</a>] <!-- Navigate --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Occult" about="https://acomagu.me/ontology/ccs/0.1#Occult" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Occult</h3> 
+  			<em property="rdfs:label" >Occult</em> - <span property="rdfs:comment" >Occult</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Occult">#</a>] <!-- Occult --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="OperateHeavyMachine" about="https://acomagu.me/ontology/ccs/0.1#OperateHeavyMachine" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:OperateHeavyMachine</h3> 
+  			<em property="rdfs:label" >Operate Heavy Machine</em> - <span property="rdfs:comment" >Operate Heavy Machine</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#OperateHeavyMachine">#</a>] <!-- OperateHeavyMachine --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="OtherLanguage" about="https://acomagu.me/ontology/ccs/0.1#OtherLanguage" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:OtherLanguage</h3> 
+  			<em property="rdfs:label" >Other Language</em> - <span property="rdfs:comment" >Other Language</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#OtherLanguage">#</a>] <!-- OtherLanguage --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="OwnLanguage" about="https://acomagu.me/ontology/ccs/0.1#OwnLanguage" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:OwnLanguage</h3> 
+  			<em property="rdfs:label" >Own Language</em> - <span property="rdfs:comment" >Own Language</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#OwnLanguage">#</a>] <!-- OwnLanguage --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Persuade" about="https://acomagu.me/ontology/ccs/0.1#Persuade" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Persuade</h3> 
+  			<em property="rdfs:label" >Persuade</em> - <span property="rdfs:comment" >Persuade</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Persuade">#</a>] <!-- Persuade --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Pharmacy" about="https://acomagu.me/ontology/ccs/0.1#Pharmacy" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Pharmacy</h3> 
+  			<em property="rdfs:label" >Pharmacy</em> - <span property="rdfs:comment" >Pharmacy</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Pharmacy">#</a>] <!-- Pharmacy --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Photography" about="https://acomagu.me/ontology/ccs/0.1#Photography" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Photography</h3> 
+  			<em property="rdfs:label" >Photography</em> - <span property="rdfs:comment" >Photography</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Photography">#</a>] <!-- Photography --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Physics" about="https://acomagu.me/ontology/ccs/0.1#Physics" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Physics</h3> 
+  			<em property="rdfs:label" >Physics</em> - <span property="rdfs:comment" >Physics</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Physics">#</a>] <!-- Physics --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Pilot" about="https://acomagu.me/ontology/ccs/0.1#Pilot" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Pilot</h3> 
+  			<em property="rdfs:label" >Pilot</em> - <span property="rdfs:comment" >Pilot</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#kind">kind</a>
+ </td></tr>
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Pilot">#</a>] <!-- Pilot --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Psychoanalysis" about="https://acomagu.me/ontology/ccs/0.1#Psychoanalysis" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Psychoanalysis</h3> 
+  			<em property="rdfs:label" >Psychoanalysis</em> - <span property="rdfs:comment" >Psychoanalysis</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Psychoanalysis">#</a>] <!-- Psychoanalysis --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Psychology" about="https://acomagu.me/ontology/ccs/0.1#Psychology" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Psychology</h3> 
+  			<em property="rdfs:label" >Psychology</em> - <span property="rdfs:comment" >Psychology</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Psychology">#</a>] <!-- Psychology --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Ride" about="https://acomagu.me/ontology/ccs/0.1#Ride" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Ride</h3> 
+  			<em property="rdfs:label" >Ride</em> - <span property="rdfs:comment" >Ride</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Ride">#</a>] <!-- Ride --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Rifle" about="https://acomagu.me/ontology/ccs/0.1#Rifle" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Rifle</h3> 
+  			<em property="rdfs:label" >Rifle</em> - <span property="rdfs:comment" >Rifle</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Rifle">#</a>] <!-- Rifle --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Shotgun" about="https://acomagu.me/ontology/ccs/0.1#Shotgun" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Shotgun</h3> 
+  			<em property="rdfs:label" >Shotgun</em> - <span property="rdfs:comment" >Shotgun</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Shotgun">#</a>] <!-- Shotgun --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Skill" about="https://acomagu.me/ontology/ccs/0.1#Skill" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Skill</h3> 
+  			<em property="rdfs:label" >Skill</em> - <span property="rdfs:comment" >Skill</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Properties include:</th>
+ <td>  <a href="#chance">chance</a>
+ </td></tr>
+  			<tr><th>Used with:</th>
+ <td>  <a href="#hasSkill">hasSkill</a>
+</td></tr> <tr><th>Has sub class</th>
+ <td>  <a href="#LibraryUse">Library Use</a>
+ <a href="#Navigate">Navigate</a>
+ <a href="#Medicine">Medicine</a>
+ <a href="#Accounting">Accounting</a>
+ <a href="#Photography">Photography</a>
+ <a href="#Throw">Throw</a>
+ <a href="#Handgun">Handgun</a>
+ <a href="#OperateHeavyMachine">Operate Heavy Machine</a>
+ <a href="#Kick">Kick</a>
+ <a href="#HeadButt">Head Butt</a>
+ <a href="#Track">Track</a>
+ <a href="#CthulhuMythos">Cthulhu Mythos</a>
+ <a href="#OwnLanguage">Own Language</a>
+ <a href="#CreditRating">Credit Rating</a>
+ <a href="#Locksmith">Locksmith</a>
+ <a href="#Climb">Climb</a>
+ <a href="#MartialArts">Martial Arts</a>
+ <a href="#Ride">Ride</a>
+ <a href="#Disguise">Disguise</a>
+ <a href="#FistPunch">Fist Punch</a>
+ <a href="#Geology">Geology</a>
+ <a href="#Archaeology">Archaeology</a>
+ <a href="#OtherLanguage">Other Language</a>
+ <a href="#Craft">Craft</a>
+ <a href="#Dodge">Dodge</a>
+ <a href="#History">History</a>
+ <a href="#Listen">Listen</a>
+ <a href="#Pilot">Pilot</a>
+ <a href="#Conceal">Conceal</a>
+ <a href="#Swim">Swim</a>
+ <a href="#Persuade">Persuade</a>
+ <a href="#Biology">Biology</a>
+ <a href="#MeleeWeapon">Melee Weapon</a>
+ <a href="#Grapple">Grapple</a>
+ <a href="#Law">Law</a>
+ <a href="#MachineGun">Machine Gun</a>
+ <a href="#Pharmacy">Pharmacy</a>
+ <a href="#MechanicalRepair">Mechanical Repair</a>
+ <a href="#Shotgun">Shotgun</a>
+ <a href="#Jump">Jump</a>
+ <a href="#Psychology">Psychology</a>
+ <a href="#Rifle">Rifle</a>
+ <a href="#FirstAid">First Aid</a>
+ <a href="#Chemistry">Chemistry</a>
+ <a href="#Astronomy">Astronomy</a>
+ <a href="#Physics">Physics</a>
+ <a href="#DriveAutomobile">Drive Automobile</a>
+ <a href="#Hide">Hide</a>
+ <a href="#ElectricalRepair">Electrical Repair</a>
+ <a href="#Anthropology">Anthropology</a>
+ <a href="#Bargain">Bargain</a>
+ <a href="#SubmachineGun">Submachine Gun</a>
+ <a href="#NaturalHistory">Natural History</a>
+ <a href="#Occult">Occult</a>
+ <a href="#Art">Art</a>
+ <a href="#Psychoanalysis">Psychoanalysis</a>
+ <a href="#Sneak">Sneak</a>
+ <a href="#SpotHidden">Spot Hidden</a>
+ <a href="#FastTalk">Fast Talk</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#LibraryUse">https://acomagu.me/ontology/ccs/0.1#:LibraryUse</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Navigate">https://acomagu.me/ontology/ccs/0.1#:Navigate</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Medicine">https://acomagu.me/ontology/ccs/0.1#:Medicine</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Accounting">https://acomagu.me/ontology/ccs/0.1#:Accounting</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Photography">https://acomagu.me/ontology/ccs/0.1#:Photography</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Throw">https://acomagu.me/ontology/ccs/0.1#:Throw</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Handgun">https://acomagu.me/ontology/ccs/0.1#:Handgun</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#OperateHeavyMachine">https://acomagu.me/ontology/ccs/0.1#:OperateHeavyMachine</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Kick">https://acomagu.me/ontology/ccs/0.1#:Kick</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#HeadButt">https://acomagu.me/ontology/ccs/0.1#:HeadButt</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Track">https://acomagu.me/ontology/ccs/0.1#:Track</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#CthulhuMythos">https://acomagu.me/ontology/ccs/0.1#:CthulhuMythos</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#OwnLanguage">https://acomagu.me/ontology/ccs/0.1#:OwnLanguage</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#CreditRating">https://acomagu.me/ontology/ccs/0.1#:CreditRating</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Locksmith">https://acomagu.me/ontology/ccs/0.1#:Locksmith</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Climb">https://acomagu.me/ontology/ccs/0.1#:Climb</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#MartialArts">https://acomagu.me/ontology/ccs/0.1#:MartialArts</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Ride">https://acomagu.me/ontology/ccs/0.1#:Ride</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Disguise">https://acomagu.me/ontology/ccs/0.1#:Disguise</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#FistPunch">https://acomagu.me/ontology/ccs/0.1#:FistPunch</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Geology">https://acomagu.me/ontology/ccs/0.1#:Geology</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Archaeology">https://acomagu.me/ontology/ccs/0.1#:Archaeology</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#OtherLanguage">https://acomagu.me/ontology/ccs/0.1#:OtherLanguage</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Craft">https://acomagu.me/ontology/ccs/0.1#:Craft</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Dodge">https://acomagu.me/ontology/ccs/0.1#:Dodge</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#History">https://acomagu.me/ontology/ccs/0.1#:History</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Listen">https://acomagu.me/ontology/ccs/0.1#:Listen</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Pilot">https://acomagu.me/ontology/ccs/0.1#:Pilot</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Conceal">https://acomagu.me/ontology/ccs/0.1#:Conceal</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Swim">https://acomagu.me/ontology/ccs/0.1#:Swim</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Persuade">https://acomagu.me/ontology/ccs/0.1#:Persuade</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Biology">https://acomagu.me/ontology/ccs/0.1#:Biology</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#MeleeWeapon">https://acomagu.me/ontology/ccs/0.1#:MeleeWeapon</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Grapple">https://acomagu.me/ontology/ccs/0.1#:Grapple</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Law">https://acomagu.me/ontology/ccs/0.1#:Law</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#MachineGun">https://acomagu.me/ontology/ccs/0.1#:MachineGun</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Pharmacy">https://acomagu.me/ontology/ccs/0.1#:Pharmacy</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#MechanicalRepair">https://acomagu.me/ontology/ccs/0.1#:MechanicalRepair</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Shotgun">https://acomagu.me/ontology/ccs/0.1#:Shotgun</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Jump">https://acomagu.me/ontology/ccs/0.1#:Jump</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Psychology">https://acomagu.me/ontology/ccs/0.1#:Psychology</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Rifle">https://acomagu.me/ontology/ccs/0.1#:Rifle</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#FirstAid">https://acomagu.me/ontology/ccs/0.1#:FirstAid</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Chemistry">https://acomagu.me/ontology/ccs/0.1#:Chemistry</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Astronomy">https://acomagu.me/ontology/ccs/0.1#:Astronomy</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Physics">https://acomagu.me/ontology/ccs/0.1#:Physics</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#DriveAutomobile">https://acomagu.me/ontology/ccs/0.1#:DriveAutomobile</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Hide">https://acomagu.me/ontology/ccs/0.1#:Hide</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#ElectricalRepair">https://acomagu.me/ontology/ccs/0.1#:ElectricalRepair</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Anthropology">https://acomagu.me/ontology/ccs/0.1#:Anthropology</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Bargain">https://acomagu.me/ontology/ccs/0.1#:Bargain</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#SubmachineGun">https://acomagu.me/ontology/ccs/0.1#:SubmachineGun</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#NaturalHistory">https://acomagu.me/ontology/ccs/0.1#:NaturalHistory</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Occult">https://acomagu.me/ontology/ccs/0.1#:Occult</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Art">https://acomagu.me/ontology/ccs/0.1#:Art</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Psychoanalysis">https://acomagu.me/ontology/ccs/0.1#:Psychoanalysis</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#Sneak">https://acomagu.me/ontology/ccs/0.1#:Sneak</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#SpotHidden">https://acomagu.me/ontology/ccs/0.1#:SpotHidden</a>
+ <a href="https://acomagu.me/ontology/ccs/0.1#FastTalk">https://acomagu.me/ontology/ccs/0.1#:FastTalk</a>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Skill">#</a>] <!-- Skill --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Sneak" about="https://acomagu.me/ontology/ccs/0.1#Sneak" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Sneak</h3> 
+  			<em property="rdfs:label" >Sneak</em> - <span property="rdfs:comment" >Sneak</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Sneak">#</a>] <!-- Sneak --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="SpotHidden" about="https://acomagu.me/ontology/ccs/0.1#SpotHidden" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:SpotHidden</h3> 
+  			<em property="rdfs:label" >Spot Hidden</em> - <span property="rdfs:comment" >Spot Hidden</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#SpotHidden">#</a>] <!-- SpotHidden --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="SubmachineGun" about="https://acomagu.me/ontology/ccs/0.1#SubmachineGun" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:SubmachineGun</h3> 
+  			<em property="rdfs:label" >Submachine Gun</em> - <span property="rdfs:comment" >Submachine Gun</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#SubmachineGun">#</a>] <!-- SubmachineGun --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Swim" about="https://acomagu.me/ontology/ccs/0.1#Swim" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Swim</h3> 
+  			<em property="rdfs:label" >Swim</em> - <span property="rdfs:comment" >Swim</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Swim">#</a>] <!-- Swim --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Throw" about="https://acomagu.me/ontology/ccs/0.1#Throw" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Throw</h3> 
+  			<em property="rdfs:label" >Throw</em> - <span property="rdfs:comment" >Throw</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Throw">#</a>] <!-- Throw --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="Track" about="https://acomagu.me/ontology/ccs/0.1#Track" typeof="owl:Class">
+  			<h3>Class: https://acomagu.me/ontology/ccs/0.1#:Track</h3> 
+  			<em property="rdfs:label" >Track</em> - <span property="rdfs:comment" >Track</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			
+  			<tr><th>Sub class of</th>
+ <td>  <span rel="rdfs:subClassOf" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">OWL Class</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#Track">#</a>] <!-- Track --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><h2>Properties</h2>
+ 
+
+
+<div class="specterm" id="app" about="https://acomagu.me/ontology/ccs/0.1#app" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:app</h3> 
+  			<em property="rdfs:label" >APP</em> - <span property="rdfs:comment" >APP</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#app">#</a>] <!-- app --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="chance" about="https://acomagu.me/ontology/ccs/0.1#chance" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:chance</h3> 
+  			<em property="rdfs:label" >chance</em> - <span property="rdfs:comment" >Defines the skill's chance percentage. e.g. 80.</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#chance">#</a>] <!-- chance --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="con" about="https://acomagu.me/ontology/ccs/0.1#con" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:con</h3> 
+  			<em property="rdfs:label" >CON</em> - <span property="rdfs:comment" >CON</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#con">#</a>] <!-- con --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="dex" about="https://acomagu.me/ontology/ccs/0.1#dex" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:dex</h3> 
+  			<em property="rdfs:label" >DEX</em> - <span property="rdfs:comment" >DEX</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#dex">#</a>] <!-- dex --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="edu" about="https://acomagu.me/ontology/ccs/0.1#edu" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:edu</h3> 
+  			<em property="rdfs:label" >EDU</em> - <span property="rdfs:comment" >EDU</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#edu">#</a>] <!-- edu --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="hasSkill" about="https://acomagu.me/ontology/ccs/0.1#hasSkill" typeof="owl:ObjectProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:hasSkill</h3> 
+  			<em property="rdfs:label" >has_skill</em> - <span property="rdfs:comment" >Defiens a character has a skill especially. If a skill is omitted for a character, the character has the skill with the base chance.</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="https://acomagu.me/ontology/ccs/0.1#Skill"><a href="#Skill">Skill</a></span>
+ </td></tr><tr><th colspan="2">Object Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#hasSkill">#</a>] <!-- hasSkill --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="hp" about="https://acomagu.me/ontology/ccs/0.1#hp" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:hp</h3> 
+  			<em property="rdfs:label" >HP</em> - <span property="rdfs:comment" >HP</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#hp">#</a>] <!-- hp --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="int" about="https://acomagu.me/ontology/ccs/0.1#int" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:int</h3> 
+  			<em property="rdfs:label" >INT</em> - <span property="rdfs:comment" >INT</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#int">#</a>] <!-- int --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="kind" about="https://acomagu.me/ontology/ccs/0.1#kind" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:kind</h3> 
+  			<em property="rdfs:label" >kind</em> - <span property="rdfs:comment" >Specifies the kind of a skill. For example, what language, what vehicle does be driven, etc..</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Art"><a href="#Art">Art</a></span>
+ <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#OtherLanguage"><a href="#OtherLanguage">Other Language</a></span>
+ <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#DriveAutomobile"><a href="#DriveAutomobile">Drive Automobile</a></span>
+ <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Pilot"><a href="#Pilot">Pilot</a></span>
+ <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#OwnLanguage"><a href="#OwnLanguage">Own Language</a></span>
+ <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Craft"><a href="#Craft">Craft</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#kind">#</a>] <!-- kind --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="mp" about="https://acomagu.me/ontology/ccs/0.1#mp" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:mp</h3> 
+  			<em property="rdfs:label" >MP</em> - <span property="rdfs:comment" >MP</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#mp">#</a>] <!-- mp --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="pow" about="https://acomagu.me/ontology/ccs/0.1#pow" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:pow</h3> 
+  			<em property="rdfs:label" >POW</em> - <span property="rdfs:comment" >POW</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#pow">#</a>] <!-- pow --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="san" about="https://acomagu.me/ontology/ccs/0.1#san" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:san</h3> 
+  			<em property="rdfs:label" >SAN</em> - <span property="rdfs:comment" >SAN</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#san">#</a>] <!-- san --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="siz" about="https://acomagu.me/ontology/ccs/0.1#siz" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:siz</h3> 
+  			<em property="rdfs:label" >SIZ</em> - <span property="rdfs:comment" >SIZ</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#siz">#</a>] <!-- siz --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div><div class="specterm" id="str" about="https://acomagu.me/ontology/ccs/0.1#str" typeof="owl:DatatypeProperty">
+  			<h3>Property: https://acomagu.me/ontology/ccs/0.1#:str</h3> 
+  			<em property="rdfs:label" >STR</em> - <span property="rdfs:comment" >STR</span> <br /><table style="th { float: top; }">
+  			<tr><th>Status:</th>
+  			<td><span property="vs:status" >unknown</span></td></tr>
+  			<tr><th>Domain:</th>
+ <td>  <span rel="rdfs:domain" href="https://acomagu.me/ontology/ccs/0.1#Character"><a href="#Character">Character</a></span>
+ </td></tr>
+  			<tr><th>Range:</th>
+ <td>  <span rel="rdfs:range" href="http://www.w3.org/2000/01/rdf-schema#Literal"><a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a></span>
+ </td></tr><tr><th colspan="2">Datatype Property</th>
+ <td>  </td></tr>
+  			</table>
+  			
+  			<p style="float: right; font-size: small;">[<a href="#str">#</a>] <!-- str --> [<a href="#glance">back to top</a>]</p>
+  			<br/>
+  			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<h2 id="sec-extrefs">External Vocabulary References</h2>
+
+...
+
+
+<h3 id="extns_status">Status Vocabulary</h3>
+
+...
+
+  <h3 id="sec-ack">Acknowledgments</h3>
+
+  ....
+
+<h2 id="sec-changes">Recent Changes</h2>
+
+....
+
+</body>
+</html>
+
+

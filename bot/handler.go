@@ -3,6 +3,7 @@ package bot
 type ReadyEvent struct{}
 
 type Guild struct {
+	ID string
 	Unavailable bool
 	Channels    []*Channel
 }

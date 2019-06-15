@@ -133,6 +133,32 @@ func TestBot_OnGuildCreate(t *testing.T) {
 
 		is.Equal(len(session.ChannelMessageSendCalls()), 1)
 	})
+
+	t.Run("prevent to send message already added bot", func(t *testing.T) {
+		session, joiner, event := newSessionMock(), newJoinerMock(), newEventMock()
+
+		event.Guild.Channels = []*Channel{
+			{
+				ID:          "hoge",
+				IsGuildText: false,
+			},
+			{
+				ID:          "fuga",
+				IsGuildText: true,
+			},
+			{
+				ID:          "hage",
+				IsGuildText: false,
+			},
+		}
+
+		bot, err := New(session, joiner, frames)
+		is.NoErr(err)
+
+		is.NoErr(bot.OnGuildCreate(event))
+
+		is.Equal(len(session.ChannelMessageSendCalls()), 1)
+	})
 }
 
 func TestBot_OnMessageCreate(t *testing.T) {

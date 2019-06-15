@@ -17,15 +17,20 @@ func init() {
 	rand.Seed(time.Now().Unix())
 }
 
+type DB interface {
+	AddGuild(*Guild) error
+}
+
 type Bot struct {
 	Session      Session
 	SoundFrames  [][]byte
 	SoundPlayers map[string]*soundplayer.SoundPlayer
 	Joiner       soundplayer.VoiceChannelJoiner
+	DB           DB
 	me           *User
 }
 
-func New(session Session, joiner soundplayer.VoiceChannelJoiner, soundFrames [][]byte) (*Bot, error) {
+func New(session Session, joiner soundplayer.VoiceChannelJoiner, db DB, soundFrames [][]byte) (*Bot, error) {
 	me, err := session.GetMe()
 	if err != nil {
 		return nil, errors.Wrap(err, "could not get own User info")
@@ -68,6 +73,12 @@ func (b *Bot) OnGuildCreate(event *GuildCreateEvent) error {
 
 	_, err := b.Session.ChannelMessageSend(channel.ID, "DICEBOTの準備ができました! ボイスチャンネルに参加して\"!dice 2D10\"などとタイプしてみましょう!")
 	if err != nil {
+		return err
+	}
+
+	if err := b.DB.AddGuild(&Guild{
+		ID:event.Guild.ID,
+	}); err != nil {
 		return err
 	}
 

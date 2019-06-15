@@ -70,7 +70,9 @@ func run() error {
 		Session: session,
 	}
 
-	bot, err := bot.New(discord.NewSession(session), joiner, frames)
+	firestore := firestore.NewFirestore()
+
+	bot, err := bot.New(discord.NewSession(session), joiner, firestore, frames)
 	if err != nil {
 		return err
 	}

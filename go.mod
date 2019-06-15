@@ -2,6 +2,7 @@ module github.com/acomagu/dicebot
 
 require (
 	github.com/bwmarrin/discordgo v0.19.0
+	github.com/go-critic/go-critic v0.3.4 // indirect
 	github.com/jonas747/dca v0.0.0-20180225204759-bf5d11669cdb
 	github.com/jonas747/ogg v0.0.0-20161220051205-b4f6f4cf3757 // indirect
 	github.com/matryer/is v1.2.0

@@ -44,6 +44,7 @@ func (r *Router) Handle(handler bot.Handler) {
 
 			logIf(handler.OnGuildCreate(&bot.GuildCreateEvent{
 				Guild: &bot.Guild{
+					ID: e.Guild.ID,
 					Unavailable: e.Guild.Unavailable,
 					Channels:    channels,
 				},
